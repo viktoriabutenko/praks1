@@ -1,0 +1,43 @@
+h1 {
+  color: blueviolet;
+}
+
+h1::before {
+  content: "Pealkiri: ";
+}
+
+h1::after {
+  content: "!!!";
+}
+
+#main-heading {
+  text-decoration: underline;
+}
+
+.lower-heading {
+  color: darkcyan;
+}
+
+li {
+  background-color: cyan;
+}
+
+.section-lists {
+  background-color: gainsboro;
+}
+
+div ul li {
+  font-weight: bold;
+}
+
+a:hover {
+  font-size: 30px;
+}
+
+.blog-post p:first-child {
+  color: gold;
+}
+
+.blog-post p:last-child::first-letter {
+  font-size: 25px;
+}
